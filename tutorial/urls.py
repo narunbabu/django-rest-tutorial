@@ -15,9 +15,18 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from rest_framework import routers
+from dinosaurs import views
+# Following two statements for dinosaurs
+router = routers.DefaultRouter()
+router.register(r'dinosaurs', views.DinosaurViewSet)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^router/', include(router.urls)),
     url(r'^', include('snippets.urls')),
+     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+
+    
 ]
 

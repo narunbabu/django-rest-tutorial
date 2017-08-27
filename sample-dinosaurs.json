@@ -1,0 +1,58 @@
+[
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 1,
+        "fields": {
+            "species": "Triceratops",
+            "teeth":"round"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 2,
+        "fields": {
+            "species": "Velociraptor",
+            "teeth":"elliptical"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 3,
+        "fields": {
+            "species": "Tyrannosaurus Rex",
+            "teeth":"triangle"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 4,
+        "fields": {
+            "species": "Apatosaurus (Brontosaurus)",
+            "teeth":"round"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 5,
+        "fields": {
+            "species": "Diplodocus",
+            "teeth":"square"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 6,
+        "fields": {
+            "species": "Brachiosaurus",
+            "teeth":"round"
+        }
+    },
+    {
+        "model": "dinosaurs.dinosaur",
+        "pk": 7,
+        "fields": {
+            "species": "Stegosaurus",
+            "teeth":"triangle"
+        }
+    }
+]
